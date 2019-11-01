@@ -69,9 +69,6 @@ body {
     margin-bottom: 25px;
 }
 
-.selector-for-some-widget {
-    box-sizing: content-box;
-}
 
 a:hover {
     text-decoration: none;
@@ -104,34 +101,6 @@ a:hover {
     background: #fff;
 }
 
-.search-bar input {
-    width: 90%;
-    background: transparent;
-    font-size: 24px;
-    border: none;
-    color: #fff;
-    border-bottom: 2px solid #fff;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    left: 5%;
-    font-weight: 300;
-}
-
-.close-bar {
-    position: absolute;
-    left: 3%;
-    top: 50%;
-    font-size: 31px;
-    color: #fff;
-    transform: translate(0, -50%);
-    cursor: pointer;
-}
-
-.search-bar.activee {
-    opacity: 1;
-    visibility: visible;
-}
 
 .header-banner-section {
     height: 450px;
@@ -615,20 +584,12 @@ a:hover {
     padding: 0 15px;
 }
 
+
 .st-content-all p {
     font-size: 35px;
     color: #fff;
     line-height: 37px;
 }
-
-/*.click-conent {
-    position: fixed;
-    bottom: -32%;
-    width: 100%;
-    background: #fff;
-    padding-top: 56px;
-}
-*/
 
 .arrow-flip {
     font-size: 65px;
